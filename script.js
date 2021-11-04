@@ -1,7 +1,10 @@
 function compute()
 {
     p = document.getElementById("principal").value;
-    result = principal * ((rate/100)*years)
+    r = document.getElementById("rate").value;
+    y = document.getElementById("years").value;
+    
+    result = p * ((r/100)*y)
     
 }
         
